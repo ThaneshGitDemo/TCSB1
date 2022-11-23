@@ -613,6 +613,11 @@ folder
 
 
 
+copy the cmd one by one and execute 
+
+
+First Time 
+
 echo "# TCSB1" >> README.md
 git init
 git add README.md
@@ -623,6 +628,16 @@ git push -u origin main
 
 
 
+
+
+
+Second time onwards 
+
+
+git init 
+git add .
+git commit -m "Char box code developed "
+git push 
 
 
 
