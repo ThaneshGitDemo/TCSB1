@@ -600,7 +600,7 @@ GIT Name : ThaneshGitDemo
 usinf user name and pass io have login 
 
 
-Creste a repo 
+Create a repo 
 	
 
 
@@ -610,6 +610,19 @@ folder
 	right click
 	
 		choose git bash hear 
+
+
+
+echo "# TCSB1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ThaneshGitDemo/TCSB1.git
+git push -u origin main
+
+
+
 
 
 
