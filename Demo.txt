@@ -1,0 +1,626 @@
+C 
+C++ : Platform Depedent  ,OOPL 
+Java  : Independent 	. OOPL 
+.net 				,OOP:
+php 
+asp 
+python			OOPL 
+
+		Why  ....? 
+
+		Platform Idenentpent 
+		run anywhere ...
+
+
+		OOPL : 
+
+		Reuse .....!
+		more efficent ....! fast ? : Comple
+		
+		High Security .............!
+
+
+
+		700:
+			
+		Assembly levle lang
+		Binary lang 
+		Pascl 
+		Cobal 	
+		potron 				Basic level lang ( B lang )
+		
+		                                            (platform Depedent )				(Indepedent )
+		=== > C prog =============================>  C ++ =============================>  C#  (paid )
+										===============================> Java (free)   
+			condition 					   C +===============================> Python (free)
+			loop							oops
+			jump 
+			structure
+			unior 
+			Threading 
+			
+		 	(Popl / sopl)
+		
+
+
+OOPL : 
+		class 
+		object 
+		Inheritance 
+		Polymorphism 
+		Encupulation 
+		Abstraction 
+
+C#
+
+		Java 						Python 
+
+		Source Code 
+		Compler (javac )					no compiler 
+		SC 							SC 
+			comnpler 
+		BC
+	
+			Intrepeter 						intrpet 
+		Output							Output 
+
+
+
+
+		Secutity : 
+			Very huge Secutity 				Python 
+
+
+
+
+
+
+		bank : 
+			phone Pay 
+
+	
+			10,000
+		
+
+			Raj 							Mumbai
+				10000							
+
+
+
+		Java : 		10 sec : we have i security 	: 10 lines 
+		Python 		5 sec 	: not much secutriy  : 100 lines 
+
+
+
+		Robots : Python 
+
+			AI : ML with python  
+			
+
+
+
+
+
+			simple 
+
+
+Python : 
+java :
+
+Features of Java
+Simple.			: Most of the ready made methods are avaliable 
+
+Object-Oriented. 		: class , obj , ingeritance, poly , enc , abstraction 
+Portable.			:  run in any machin 
+Platform independent.	: wight once run anywhere 
+Secured.                 : Byte code , 
+Robust.			: strong 
+Architecture neutral.    : 
+Interpreted.		: WIN , Linx , MAC 
+
+
+
+
+
+int 
+		win : 
+	32 
+		
+	64 : 
+		linx 
+		mac 
+		andriod 
+		
+
+
+
+
+
+Basics prog 
+
+constrients : 
+
+
+
+Primary key 
+not null 
+check 
+default 
+uniquee
+
+
+
+
+
+
+
+create table Employee(CID int primary key,name varchar(10) not null,age int(3) check(age > 18 ),desig varchar(10) default 'GET',PAN varchar(10) unique);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tags :
+
+
+html 
+
+<br>	
+<form>
+<title>Insert title here</title>
+</head>
+<body>
+Upper or lower
+we cant write logic  
+
+
+
+
+
+xml : 
+	extenciane HTML 
+	XML
+
+ <welcome-file>
+  <servlet>
+ <servlet>
+<servlet-mapping>
+
+
+rules: 
+		it must be lower
+		we can logic 
+		
+
+
+
+
+
+
+html
+
+
+	<body>
+
+		<form>
+		<h1>
+		
+
+	</body>
+
+
+
+
+
+XML
+
+
+<book>
+
+	<author-name>Prakash</author-name>
+	<author-book>java </author-book>
+
+
+</book>
+
+
+JSP 
+: 
+	java Server page :
+
+
+
+Servlet : sever side coding lang which is used to creat web applcaiton  : java 
+JSP : Servr  isde coding lang which is used to create a web applcation  : HTML 
+
+
+	HTML 
+
+
+	text : a 
+	text : b  
+	
+
+	c = a+ b ;
+
+
+	JSP : 
+		text feild 
+		logic 
+
+
+
+
+
+
+JSP 
+
+
+
+
+
+		JDBC 	
+		Sevlet
+		 
+		Tomcat : 
+		jar 
+		jdbc 
+		servlet jar 
+
+
+
+		JSP 
+
+		Hibernate 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5 types SQLcommends 
+
+	DDL  :Data defination lang
+
+			Drop :
+					drop table emp;
+			rename	
+				rename table  employees to emp;
+			Create 
+				ok 
+			alter
+				add : alter table emp add dept varchar(10);
+				drop  :alter table emp drop dept;
+				Modify :alter table emp modify pan varchar(8);
+				rename  :
+						alter table emp rename column  emp_id to eid;
+ 						ALTER TABLE table_name RENAME COLUMN old_column_name TO new_column_name
+				
+			truncate:
+					to remove all record agt once shot 
+					truncate table emp;
+
+	DML  : data manupualtionlang
+			Update	: update emp set salary= 50000 where id =100;
+			Insert	: insert into emp values (100,"THANESH",24,34567,'Dev');
+			Delete	:Delete from emp where id = 100; 
+
+  
+	DRL 	: Data Retrival lang 
+			Select 	: Select * from emp ; 
+
+	DCL 	: Data control lang 
+			Grant 
+			Revoke 
+
+	TCL 	: TRancetion  COntrol lang  
+			COmmit 
+			ROllback 
+
+    
+
+
+
+1	: Introduction to Java					: DONE
+2	:Data Handling and Functions				: DONE
+3	:Object Oriented Programming in Java			: DONE
+4	:Packages and Multi Threading				: DONE
+5	:Collections							: DONE
+6	:JDBC									: DONE
+7	:Servlets								: DONE
+8	:JSP 									: DONE
+9	:Hibernate								:
+10	:Serialization							:
+11	:JSON									:
+12	:Java memory model						: DONE
+13	:Java 8 and Java 9 features					: DONE 
+14	:XML									: DONE
+15	:SOA
+16	:Web Services and Project					: DONE
+17	:Introduction to Struts Framework			:
+18	:Struts 1.2 MVC and Stateless Session Beans		:
+19	:SVN									:
+20	:Maven								:
+21	:Getting Started with MySQL and Installing MySQL	: DONE
+22	:Designing Your Database & Understand Data Types : DONE
+23	:Creating Databases and Tables				: DONE
+24	:Eclips								: DONE 
+25	:Querying and Modifying Table Data			: DONE
+26	:Joining Tables and Functions				: DONE
+27	:MySQL Architecture and Administration Basics	: Demo
+28	:Configuring & Monitoring MySQL Server			: DENE
+29	:User Management							: DEMO 
+30	:Security								: DEMO
+31 	:Backup Tools & Technique					: DONE
+
+
+
+		Sub Quesris :
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+constrients :
+	primary key 
+	check
+	uniquee
+	not null 
+	default 
+	forign key
+
+Joins  
+	inner join 	
+	outer join 
+		full join 
+		left joiin 
+		right join 
+
+Data type :
+	varchar 
+	char 
+	date 
+	int 
+	boolean 
+
+views :
+	Hide any column , then we are  using views 
+
+User ? 
+	grant 
+	revoke 
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1	: Introduction to Java					: DONE
+2	:Data Handling and Functions				: DONE
+3	:Object Oriented Programming in Java			: DONE
+4	:Packages and Multi Threading				: DONE
+5	:Collections							: DONE
+6	:JDBC									: DONE
+7	:Servlets								: DONE
+8	:JSP 									: DONE
+9	:Hibernate								: DONE
+10	:Serialization							:
+11	:JSON									:
+12	:Java memory model						: DONE
+13	:Java 8 and Java 9 features					: DONE 
+14	:XML									: DONE
+15	:SOA									:
+16	:Web Services and Project					: DONE
+17	:Introduction to Struts Framework			:
+18	:Struts 1.2 MVC and Stateless Session Beans		:
+19	:SVN									:
+20	:Maven								: DONE
+21	:Getting Started with MySQL and Installing MySQL	: DONE
+22	:Designing Your Database & Understand Data Types : DONE
+23	:Creating Databases and Tables				: DONE
+24	:Eclips								: DONE 
+25	:Querying and Modifying Table Data			: DONE
+26	:Joining Tables and Functions				: DONE
+27	:MySQL Architecture and Administration Basics	: Demo
+28	:Configuring & Monitoring MySQL Server			: DENE
+29	:User Management							: DEMO 
+30	:Security								: DEMO
+31 	:Backup Tools & Technique					: DONE
+
+
+
+
+			30 minuts : 
+						Complete HIbernate project 
+
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+17 :wed :  web services , SOA , JSON ,Unit testing  testing 
+18 : thurs : structs 
+19 : frid  : structs  + some revision 
+20 : monday : project 
+
+
+ 4 hours : 
+			1 hours : 
+
+					MCQ :
+			2 : 20 : 30 
+
+				coding 
+
+					full stack implementation
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				SVN : SubVersioN 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+thaneshkumartcs@gmail.com
+
+password : tyhansdfg123456
+
+GIT Name : ThaneshGitDemo
+
+usinf user name and pass io have login 
+
+
+Creste a repo 
+	
+
+
+the go to folder where you wnat push the code 
+
+folder 
+	right click
+	
+		choose git bash hear 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
