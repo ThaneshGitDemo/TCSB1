@@ -643,8 +643,10 @@ git push
 
 
 
+if you want to get the code 
 
 
+ git clone https://github.com/ThaneshGitDemo/TCSB1.git
 
 
 
